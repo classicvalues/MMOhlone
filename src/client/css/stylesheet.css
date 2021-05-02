@@ -1,6 +1,6 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -63,7 +63,7 @@ body, html {
     #frame #sidepanel #profile {
         width: 100%;
         margin: 0 auto;
-        padding: 5px 0 0 0;
+        padding: 5px 0 0;
         background: #32465a;
     }
 }
@@ -169,7 +169,7 @@ body, html {
     opacity: 0;
     visibility: hidden;
     width: 150px;
-    margin: 70px 0 0 0;
+    margin: 70px 0 0;
     border-radius: 6px;
     z-index: 99;
     line-height: initial;
@@ -190,7 +190,7 @@ body, html {
 #frame #sidepanel #profile .wrap #status-options.active {
     opacity: 1;
     visibility: visible;
-    margin: 75px 0 0 0;
+    margin: 75px 0 0;
 }
 
 @media screen and (max-width: 735px) {
@@ -242,7 +242,7 @@ body, html {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    margin: 5px 0 0 0;
+    margin: 5px 0 0;
 }
 
 @media screen and (max-width: 735px) {
@@ -313,7 +313,7 @@ body, html {
 }
 
 #frame #sidepanel #profile .wrap #expanded {
-    padding: 100px 0 0 0;
+    padding: 100px 0 0;
     display: block;
     line-height: initial !important;
 }
@@ -487,12 +487,12 @@ body, html {
 
 @media screen and (max-width: 735px) {
     #frame #sidepanel #contacts ul li.contact .wrap img {
-        margin-right: 0px;
+        margin-right: 0;
     }
 }
 
 #frame #sidepanel #contacts ul li.contact .wrap .meta {
-    padding: 5px 0 0 0;
+    padding: 5px 0 0;
 }
 
 @media screen and (max-width: 735px) {
@@ -507,7 +507,7 @@ body, html {
 }
 
 #frame #sidepanel #contacts ul li.contact .wrap .meta .preview {
-    margin: 5px 0 0 0;
+    margin: 5px 0 0;
     padding: 0 0 1px;
     font-weight: 400;
     white-space: nowrap;
@@ -674,7 +674,7 @@ body, html {
     display: inline-block;
     clear: both;
     float: left;
-    margin: 15px 15px 5px 15px;
+    margin: 15px 15px 5px;
     width: calc(100% - 25px);
     font-size: 0.9em;
 }
