@@ -4,7 +4,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
-  margin: 0px;
+  margin: 0;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -23,7 +23,7 @@ a:hover {
 /*---------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0px;
+  margin: 0;
 }
 
 /*---------------------------------------------*/
@@ -120,7 +120,7 @@ button.login100-form-btn:hover {
   width: 500px;
   border-radius: 10px;
   overflow: hidden;
-  padding: 55px 55px 37px 55px;
+  padding: 55px 55px 37px;
   background: #9152f8;
   background: -webkit-linear-gradient(top, #7579ff, #b224ef);
   background: -o-linear-gradient(top, #7579ff, #b224ef);
@@ -223,7 +223,7 @@ button.login100-form-btn:hover {
   width: 100%;
   position: absolute;
   top: 6px;
-  left: 0px;
+  left: 0;
   padding-left: 5px;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -330,7 +330,7 @@ button.login100-form-btn:hover {
 
 @media (max-width: 576px) {
   .wrap-login100 {
-    padding: 55px 15px 37px 15px;
+    padding: 55px 15px 37px;
   }
 }
 
@@ -355,7 +355,7 @@ button.login100-form-btn:hover {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  right: 0px;
+  right: 0;
   pointer-events: none;
   color: #c80000;
   font-size: 13px;

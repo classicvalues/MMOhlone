@@ -64,7 +64,7 @@ socket.on('update', data => {
 	for (var prop in lstChannels) {
 		var channel = lstChannels[prop];
 		$("#channelContacts").append("<li id='" + channel.name + "' class='contact'>" + getChannelLink(channel) + "</li>")
-	};
+	}
 
 	if (currentChannelName != null && currentChannelName.length > 0) {
 		chatStarted(currentChannelName);
@@ -366,7 +366,7 @@ function newMessage() {
 	// Empty the message input
 	$('.message-input input').val(null);
 	$('.message-input input').focus();
-};
+}
 
 function appendMessage(data) {
 	if (data.from == getMe().id) {
