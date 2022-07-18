@@ -16,7 +16,7 @@
   "license": "GNU",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.1.0",
-    "crypto-js": "^3.1.9-1",
+    "crypto-js": "4.1.1",
     "ejs": "^2.5.5",
     "express": "^4.16.3",
     "gravatar": "^1.0.6",
