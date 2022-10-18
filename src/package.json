@@ -15,7 +15,7 @@
   "author": "Behzad Khosravifar <behzad.khosravifar@gmail.com>",
   "license": "GNU",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.1.0",
+    "@fortawesome/fontawesome-free": "5.15.4",
     "crypto-js": "^3.1.9-1",
     "ejs": "3.1.8",
     "express": "^4.16.3",
