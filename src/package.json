@@ -20,6 +20,6 @@
     "ejs": "3.1.8",
     "express": "^4.16.3",
     "gravatar": "^1.0.6",
-    "socket.io": "^2.1.1"
+    "socket.io": "2.5.0"
   }
 }
